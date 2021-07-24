@@ -98,3 +98,19 @@ function calcularAreaTriangulo(){
     const area = areaTriangulo(valor1, value2);
     alert(area)
 }
+
+//Circulo
+function calcularPerimetroCirculo(){
+    const input = document.getElementById('inputCirculo');
+    const value = input.value;
+
+    const perimetro = perimetroCirculo(value);
+    alert(perimetro)
+}
+function calcularAreaCirculo(){
+    const input = document.getElementById('inputCirculo');
+    const value = input.value;
+
+    const area = areaCirculo(value);
+    alert(area)
+}
