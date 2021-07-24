@@ -32,6 +32,10 @@ function areaTriangulo(base, altura){
     return (base * altura) / 2
 }
 // console.log('El area del triangulo mide: ' + areaTriangulo + ' cm2');
+
+function alturaTriangulo(lado, base){
+    return Math.sqrt((lado * lado) - ((base * base) / 4));
+}
 console.groupEnd();
 
 // Codigo del cirulo
@@ -97,6 +101,23 @@ function calcularAreaTriangulo(){
 
     const area = areaTriangulo(valor1, value2);
     alert(area)
+}
+function calcularAlturaTriangulo(){
+    const lado1 = document.getElementById('inputTriangulo1');
+    const lado2 = document.getElementById('inputTriangulo2');
+    const base = document.getElementById('inputTrianguloBase');
+    const value1 = Number(lado1.value);
+    const value2 = Number(lado2.value);
+    const value3 = Number(base.value);
+
+    if( value1 != value2 ){
+        alert('Ambos lados deben ser iguales');
+        lado1.focus();
+    } else{
+        const altura = alturaTriangulo(value1, value3);
+        alert(altura)
+    }
+
 }
 
 //Circulo
