@@ -14,7 +14,7 @@ article{
 }
 
 section{
-    border-radius: 5px;
+    /* border-radius: 5px; */
     border: 1px dotted #ccc;
     margin: 5px;
     padding: 15px;
@@ -46,8 +46,18 @@ input {
 }
 
 button{
-    border-radius: 3px;
-    border: none;
+    border-radius: 0;
+    background-color: white;
+    border: 1px solid dodgerblue;
     cursor: pointer;
-    padding: 10px 5px;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px 15px;
 }
