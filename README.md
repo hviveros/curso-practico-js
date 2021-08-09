@@ -30,3 +30,12 @@ Si el numero de datos que hay en el “arreglo” es par escogemos el valor de l
 -1. Definir las formulas
 -2. Implementar las formulas en JavaScript
 -3. Crear funciones
+
+## Reto Final: Calular ahorros
+En este reto planteo implementar una calculadora de ahorros, donde el usuario deberá escribir sus ingresos mensuales, cuánto desea ahorrar y por cuanto tiempo.
+El resultado mostrará cuánto % del ingreso representa el ahorro y el monto acumulado en el dicho periodo.
+
+-1. Definir las formulas
+-2. Implementar las formulas en JavaScript
+-3. Crear funciones
+-4. Interactuar JavaScript con HTML

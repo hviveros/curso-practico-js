@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Ahorros - 4to Taller JS Práctico</title>
+    <link rel="stylesheet" href="./estilos.taller.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Ahorros</h1>
+        <p>4to. Taller - Reto JS</p>
+    </header>
+    <section>
+        <h2>Calcula el cuánto estarás ahorrando en un periodo de tiempo</h2>
+        <form>
+            <label for="inputIngresos">Escribe tu ingreso mensual</label>
+            <input type="number" id="inputIngresos">
+
+            <label for="inputAhorro">Escribe el monto que deseas ahorrar por mes</label>
+            <input type="number" id="inputAhorro">
+
+            <label for="inputMeses">La cantidad de meses para ahorrar</label>
+            <input type="number" id="inputMeses">
+
+            <button type="button" onclick="calcularAhorro()">
+                Calcular el ahorro acumulado
+            </button>
+        </form>
+    </section>
+    <section>
+        <p id="resultSave"></p>
+    </section>
+
+    <script src="./ahorros.js"></script>
+</body>
+</html>
